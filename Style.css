@@ -1,0 +1,250 @@
+*{
+    user-select: none;
+}
+
+#navbar{
+    background-color: green;
+}
+
+#navlink{
+    color: lightblue;
+    transition: color .2s;
+}
+
+#navlink:hover{
+    color: cyan;
+}
+
+.jumbotron{
+    padding: 10px;
+    background-image: url(Gambar/Programming.jpg);
+    background-size: cover;
+    height: 750px;
+}
+
+.jumbotron .heading{
+    margin-top: 100px;
+    color: green;
+    -webkit-text-stroke: 1px white;
+    background-size: cover;
+    user-select: none;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.jumbotron .paragraph{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    font-weight: bold;
+}
+
+#newscard{
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: blue;
+    color: white;
+    box-shadow: 5px 5px 3px black;
+    transition: transform .2s;
+    user-select: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#settingscard{
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: purple;
+    color: white;
+    box-shadow: 5px 5px 3px black;
+    transition: transform .2s;
+    user-select: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#gamescard{
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: orange;
+    color: white;
+    box-shadow: 5px 5px 3px black;
+    transition: transform .2s;
+    user-select: none;
+    cursor: pointer;
+}
+
+#mapscard{
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: green;
+    color: white;
+    box-shadow: 5px 5px 3px black;
+    transition: transform .2s;
+    user-select: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#column{
+    margin-left: 15px;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.card:active{
+    opacity: 0.9;
+}
+
+.card{
+    height: 350px;
+}
+
+.footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+i{
+    color:white;
+}
+
+hr{
+    height: 20px;
+    background: white;
+}
+
+#newscontainer{
+    background-color: white;
+    margin-top: 50px;
+    height: 650px;
+    box-shadow: 5px 10px 5px ;
+    border-radius: 10px;
+    border: 3px solid grey;
+}
+
+#innernewscard{
+    border-radius: 5px;
+    border: 2px solid black;
+    height: 165px;
+    width: 1000px;
+    background-color: white;
+    color: black;
+    position: relative;
+    left: 20px;
+    top: 15px;
+    transition: transform .2s;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 5px 5px 3px black;
+    text-decoration: none;
+
+}
+
+#newscardimg{
+    height: 161px;
+    width: 170px;
+}
+
+#newscardtext{
+    color: grey;
+}
+
+#cardtitle{
+    font-weight: bold;
+}
+
+.previous-button{
+    text-align: center;
+    border: none;
+    background-color: blue;
+    color: white;
+    height: 50px;
+    width: 100px;
+}
+
+.next-button{
+    float: right;
+    border: none;
+    background-color: blue;
+    color: white;
+    position: relative;
+    right: 80px;
+    height: 50px;
+    width: 100px;
+}
+
+.previous-button:hover{
+    color: black;
+    background-color: rgb(46, 46, 202);
+}
+
+.next-button:hover{
+    color: black;
+    background-color: rgb(46, 46, 202);
+}
+
+#jumbotronberita{
+    padding: 10px;
+    background-image: url(Gambar/Programming.jpg);
+    background-size: cover;
+    height: 900px;
+}
+
+#newscontainerberita{
+    background-color: white;
+    margin-top: 50px;
+    height: 800px;
+    box-shadow: 5px 10px 5px ;
+    border-radius: 10px;
+    border: 3px solid grey;
+}
+
+.submitbutton{
+    position: relative;
+    margin-left: 45%;
+    margin-right: 45%;
+    border: none;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    width: 100px;
+    border-radius: 50px;
+}
+
+.submitbutton:hover{
+    color: black;
+    background-color: rgb(46, 46, 202);
+    
+}
+
+.aboutmepage{
+    text-align: center;
+    color: blue;
+    font-family: Impact;
+}
+
+.aboutmepage h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.aboutmepage img{
+    justify-content: center;
+    width: 200px;
+    height: 250px;
+}
+
+.aboutmepage p{
+    margin-top: 25px;
+}
+
+.linklogo{
+    text-decoration: none;
+    color: white;
+}
